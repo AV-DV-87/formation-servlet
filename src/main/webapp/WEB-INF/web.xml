@@ -1,0 +1,11 @@
+<web-app version="3.1">
+	<servlet>
+		<servlet-name>PronoServlet</servlet-name>
+		<servlet-class>fr.avdv.monpronostique.web.PronoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PronoServlet</servlet-name>
+		<!-- c -->
+		<url-pattern>/france-australie</url-pattern>
+	</servlet-mapping>
+</web-app>
